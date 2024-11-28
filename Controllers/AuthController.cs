@@ -1,7 +1,7 @@
 ﻿using CareSync.DTOs;
 using CareSync.Models;
 using CareSync.Repositories;
-using CareSync.Services; // Import the JWTService
+using CareSync.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CareSync.Controllers
@@ -11,12 +11,12 @@ namespace CareSync.Controllers
     public class AuthController : ControllerBase
     {
         private readonly IUserRepository _userRepository;
-        private readonly JWTService _jwtService; // Inject the JWTService
+        private readonly JWTService _jwtService;
 
         public AuthController(IUserRepository userRepository, JWTService jwtService)
         {
             _userRepository = userRepository;
-            _jwtService = jwtService; // Initialize the JWTService
+            _jwtService = jwtService;
         }
 
         [HttpPost("register")]

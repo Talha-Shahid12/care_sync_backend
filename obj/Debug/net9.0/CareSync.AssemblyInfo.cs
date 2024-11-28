@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CareSync")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1153e0c400bb61b4fd6561e273f21d94bcd905e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01cf2a3150f9c0dcabc5861306ef72bd6e07f33b")]
 [assembly: System.Reflection.AssemblyProductAttribute("CareSync")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CareSync")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -13,7 +13,7 @@ namespace CareSync.Services
 
         public JWTService(IConfiguration configuration)
         {
-            _secretKey = configuration["Jwt:SecretKey"]; // Retrieve the key from appsettings.json
+            _secretKey = configuration["Jwt:SecretKey"];
         }
 
         public string GenerateToken(string userId, string firstName, string lastName, string userType)

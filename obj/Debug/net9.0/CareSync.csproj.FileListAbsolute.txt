@@ -158,3 +158,9 @@ F:\IPT Project\care_sync_backend\CareSync\obj\Debug\net9.0\CareSync.genruntimeco
 F:\IPT Project\care_sync_backend\CareSync\obj\Debug\net9.0\ref\CareSync.dll
 F:\IPT Project\care_sync_backend\CareSync\obj\Debug\net9.0\CareSync.sourcelink.json
 F:\IPT Project\care_sync_backend\CareSync\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+F:\IPT Project\care_sync_backend\CareSync\bin\Debug\net9.0\publish\web.config
+F:\IPT Project\care_sync_backend\CareSync\bin\Debug\net9.0\publish\appsettings.Development.json
+F:\IPT Project\care_sync_backend\CareSync\bin\Debug\net9.0\publish\appsettings.json
+F:\IPT Project\care_sync_backend\CareSync\bin\Debug\net9.0\publish\CareSync.deps.json
+F:\IPT Project\care_sync_backend\CareSync\bin\Debug\net9.0\publish\CareSync.runtimeconfig.json
+F:\IPT Project\care_sync_backend\CareSync\bin\Debug\net9.0\publish\CareSync.staticwebassets.endpoints.json

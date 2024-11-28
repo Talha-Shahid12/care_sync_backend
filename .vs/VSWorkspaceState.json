@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Repositories",
+    "\\Services"
   ],
-  "SelectedNode": "\\web.config",
+  "SelectedNode": "\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

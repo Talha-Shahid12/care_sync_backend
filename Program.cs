@@ -2,7 +2,6 @@ using CareSync.Data;
 using CareSync.Repositories;
 using CareSync.Services;
 using Microsoft.EntityFrameworkCore;
-using CareSync.Services; // Import your JWTService namespace
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
@@ -28,7 +27,7 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             ValidIssuer = "CareSync",
             ValidateAudience = true,
             ValidAudience = "CareSyncUsers",
-            ValidateLifetime = true,
+            ValidateLifetime = false,
             IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Jwt:SecretKey"]))
         };
 
@@ -38,12 +37,13 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
             {
                 if (!context.Request.Headers.ContainsKey("Authorization"))
                 {
+                    context.HandleResponse();
                     context.Response.StatusCode = 400; 
                     context.Response.ContentType = "application/json";
                     var response = new { message = "Authorization token is missing." };
                     return context.Response.WriteAsJsonAsync(response);
                 }
-
+                context.HandleResponse();
                 context.Response.StatusCode = 401; 
                 context.Response.ContentType = "application/json";
                 var defaultResponse = new { message = "Unauthorized access. Please provide a valid token." };
