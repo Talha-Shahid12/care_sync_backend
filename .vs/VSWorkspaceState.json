@@ -1,12 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\Controllers",
-    "\\DTOs",
-    "\\Models",
-    "\\Repositories",
-    "\\Services"
+    ""
   ],
-  "SelectedNode": "\\Services\\JWTService.cs",
+  "SelectedNode": "\\web.config",
   "PreviewInSolutionExplorer": false
 }
