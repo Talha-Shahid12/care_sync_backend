@@ -7,7 +7,6 @@ namespace CareSync.Models
     {
         [Key]
         public string? HistoryId { get; set; }
-        public string? VisitDate { get; set; }
         public string? Diagnosis { get; set; }
         public string? Prescription { get; set; }
 

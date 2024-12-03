@@ -2,7 +2,6 @@
 {
     public class MedicalHistoryDto
     {
-        public string? VisitDate { get; set; }    
         public string? Diagnosis { get; set; }   
         public string? Prescription { get; set; }
         public string? PatientId { get; set; }

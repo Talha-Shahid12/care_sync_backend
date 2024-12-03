@@ -26,17 +26,15 @@ namespace CareSync.Controllers
             {
                 return Unauthorized(new { message = "Invalid token. User ID not found." });
             }
-            if (string.IsNullOrEmpty(medicalHistoryDto.VisitDate) ||
-                string.IsNullOrEmpty(medicalHistoryDto.Diagnosis) ||
+            if (string.IsNullOrEmpty(medicalHistoryDto.Diagnosis) ||
                 string.IsNullOrEmpty(medicalHistoryDto.Prescription))
             {
-                return BadRequest("VisitDate, Diagnosis, and Prescription are required.");
+                return BadRequest("Diagnosis, and Prescription are required.");
             }
 
             var newMedicalHistory = new MedicalHistory
             {
                 HistoryId = Guid.NewGuid().ToString(), 
-                VisitDate = medicalHistoryDto.VisitDate, 
                 Diagnosis = medicalHistoryDto.Diagnosis,
                 Prescription = medicalHistoryDto.Prescription,
                 PatientId = medicalHistoryDto.PatientId,
@@ -45,7 +43,7 @@ namespace CareSync.Controllers
 
             await _medicalHistoryRepository.AddMedicalHistoryAsync(newMedicalHistory);
 
-            return Ok("Medical history added successfully.");
+            return Ok(new { message = "Medical history added successfully.", success = true });
         }
     }
 }

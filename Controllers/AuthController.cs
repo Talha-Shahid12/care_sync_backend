@@ -3,6 +3,9 @@ using CareSync.Models;
 using CareSync.Repositories;
 using CareSync.Services;
 using Microsoft.AspNetCore.Mvc;
+using CareSync.Data;
+using Microsoft.EntityFrameworkCore;
+
 
 namespace CareSync.Controllers
 {
@@ -12,9 +15,12 @@ namespace CareSync.Controllers
     {
         private readonly IUserRepository _userRepository;
         private readonly JWTService _jwtService;
+        private readonly AppDbContext _context;
 
-        public AuthController(IUserRepository userRepository, JWTService jwtService)
+
+        public AuthController(IUserRepository userRepository, JWTService jwtService, AppDbContext context)
         {
+            _context = context;
             _userRepository = userRepository;
             _jwtService = jwtService;
         }
@@ -25,8 +31,9 @@ namespace CareSync.Controllers
             var existingUser = await _userRepository.GetUserByEmailAsync(registerDto.Email!);
             if (existingUser != null)
             {
-                return BadRequest("User with this email already exists.");
+                return BadRequest(new { message = "User with this email already exists.", success = false });
             }
+
 
             var newUser = new User
             {
@@ -42,7 +49,7 @@ namespace CareSync.Controllers
             newUser.Token = token;
             await _userRepository.AddUserAsync(newUser);
 
-            return Ok(new { message = "Registration successful!" });
+            return Ok(new { message = "Registration successful!", success = true, userId = newUser.UserId, token = newUser.Token });
         }
 
 
@@ -54,17 +61,38 @@ namespace CareSync.Controllers
             {
                 return Unauthorized(new { message = "Invalid email or password." });
             }
-            if (string.IsNullOrEmpty(user.Token))
+
+            string? patientId = null;
+            string? doctorId = null;
+          
+            if (_context == null)
             {
-                return BadRequest(new { message = "User does not have a valid token." });
+                return StatusCode(500, new { message = "Server error: Database context not available." });
+            }
+
+            if (user.UserType == "PATIENT")
+            {
+                var patient = await _context.Patients.FirstOrDefaultAsync(p => p.UserId == user.UserId);
+                patientId = patient?.PatientId;
+            }
+            else if (user.UserType == "DOCTOR")
+            {
+                var doctor = await _context.Doctors.FirstOrDefaultAsync(d => d.UserId == user.UserId);
+                doctorId = doctor?.DoctorId;
             }
 
             return Ok(new
             {
                 message = "Login successful!",
-                token = user.Token
+                token = user.Token,
+                userId = user.UserId,
+                userType = user.UserType,
+                patientId = patientId,
+                doctorId = doctorId,
+                success = true
             });
         }
+
 
 
         [HttpGet("status")]

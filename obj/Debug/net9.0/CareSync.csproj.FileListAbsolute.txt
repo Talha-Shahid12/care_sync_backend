@@ -164,3 +164,4 @@ F:\IPT Project\care_sync_backend\CareSync\bin\Debug\net9.0\publish\appsettings.j
 F:\IPT Project\care_sync_backend\CareSync\bin\Debug\net9.0\publish\CareSync.deps.json
 F:\IPT Project\care_sync_backend\CareSync\bin\Debug\net9.0\publish\CareSync.runtimeconfig.json
 F:\IPT Project\care_sync_backend\CareSync\bin\Debug\net9.0\publish\CareSync.staticwebassets.endpoints.json
+F:\IPT Project\care_sync_backend\CareSync\bin\Debug\net9.0\Newtonsoft.Json.dll

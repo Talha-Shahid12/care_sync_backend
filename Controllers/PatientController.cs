@@ -36,7 +36,7 @@ namespace CareSync.Controllers
 
             await _patientRepository.AddPatientAsync(newPatient);
 
-            return Ok("Patient added successfully.");
+            return Ok(new { message =  "Patient added successfully." , success = true});
         }
     }
 }
