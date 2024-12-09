@@ -3,6 +3,8 @@ using CareSync.Models;
 using CareSync.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using CareSync.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace CareSync.Controllers
 {
@@ -11,9 +13,11 @@ namespace CareSync.Controllers
     public class MedicalHistoryController : ControllerBase
     {
         private readonly IMedicalHistoryRepository _medicalHistoryRepository;
+        private readonly AppDbContext _dbContext;
 
-        public MedicalHistoryController(IMedicalHistoryRepository medicalHistoryRepository)
+        public MedicalHistoryController(IMedicalHistoryRepository medicalHistoryRepository, AppDbContext context)
         {
+            _dbContext = context;
             _medicalHistoryRepository = medicalHistoryRepository;
         }
 
@@ -42,6 +46,20 @@ namespace CareSync.Controllers
             };
 
             await _medicalHistoryRepository.AddMedicalHistoryAsync(newMedicalHistory);
+
+   
+            var appointment = await _dbContext.Appointments
+        .FirstOrDefaultAsync(a => a.AppointmentId == medicalHistoryDto.AppointmentId);
+
+            if (appointment == null)
+            {
+                return NotFound(new { message = "Appointment not found." });
+            }
+
+            appointment.Status = "COMPLETED";
+            _dbContext.Appointments.Update(appointment);
+
+            await _dbContext.SaveChangesAsync();
 
             return Ok(new { message = "Medical history added successfully.", success = true });
         }

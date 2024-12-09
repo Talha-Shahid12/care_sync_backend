@@ -9,12 +9,6 @@
         public string UserId { get; set; }
     }
 
-    public class FreeDayDto
-    {
-        public string Day { get; set; }
-        public string Hours { get; set; }
-    }
-
 
 }
 

@@ -2,11 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\Controllers",
-    "\\DTOs",
+    "\\Jobs",
     "\\Models",
-    "\\Repositories",
     "\\Services"
   ],
-  "SelectedNode": "\\Services\\JWTService.cs",
+  "SelectedNode": "\\Models\\User.cs",
   "PreviewInSolutionExplorer": false
 }

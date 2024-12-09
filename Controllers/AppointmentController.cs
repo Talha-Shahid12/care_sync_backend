@@ -42,6 +42,8 @@ namespace CareSync.Controllers
                 return BadRequest(new { message = "AppointmentDate, AppointmentTime, PatientId, and DoctorId are required." , success = false});
             }
 
+           
+
             var newAppointment = new Appointment
             {
                 AppointmentId = Guid.NewGuid().ToString(),
@@ -181,7 +183,7 @@ namespace CareSync.Controllers
 
             if (!appointments.Any())
             {
-                return NotFound(new { message = "No scheduled appointments found for the provided doctor ID.", success = false });
+                return NotFound(new { message = "No scheduled appointments found.", success = false });
             }
 
             var result = new List<object>();
@@ -214,7 +216,81 @@ namespace CareSync.Controllers
             return Ok(new { message = result, success = true });
         }
 
+        [HttpGet("get-all-appointments-for-doctor")]
+        [Authorize]
+        public async Task<IActionResult> GetAllAppointmentsForDoctor([FromQuery] string doctorId)
+        {
 
+            var userId = User.Identity.Name;
+            if (userId == null)
+            {
+                return Unauthorized(new { message = "Invalid token. User ID not found.", success = false });
+            }
+            if (string.IsNullOrEmpty(doctorId))
+            {
+                return BadRequest(new { message = "DoctorId is required.", success = false });
+            }
+
+            var appointments = await _context.Appointments
+                .Where(a => a.DoctorId == doctorId)
+                .Join(_context.Patients, a => a.PatientId, p => p.PatientId, (a, p) => new
+                {
+                    a.AppointmentId,
+                    a.AppointmentDate,
+                    a.AppointmentTime,
+                    a.Status,
+                    p.Dob,
+                    p.ContactNumber,
+                    p.UserId,
+                    a.PatientId
+                })
+                .Join(_context.Users, ap => ap.UserId, u => u.UserId, (ap, u) => new
+                {
+                    ap.AppointmentId,
+                    ap.AppointmentDate,
+                    ap.AppointmentTime,
+                    ap.Status,
+                    PatientName = u.FirstName + " " + u.LastName,
+                    ap.Dob,
+                    ap.ContactNumber,
+                    ap.PatientId
+                })
+                .ToListAsync();
+
+            if (!appointments.Any())
+            {
+                return NotFound(new { message = "No scheduled appointments found.", success = false });
+            }
+
+            var result = new List<object>();
+
+            foreach (var appointment in appointments)
+            {
+                var medicalHistories = await _context.MedicalHistories
+                    .Where(mh => mh.PatientId == appointment.PatientId && mh.AppointmentId == appointment.AppointmentId)
+                    .Select(mh => new
+                    {
+                        mh.Diagnosis,
+                        mh.Prescription
+                    })
+                    .ToListAsync();
+
+                result.Add(new
+                {
+                    appointment.AppointmentId,
+                    appointment.AppointmentDate,
+                    appointment.AppointmentTime,
+                    appointment.Status,
+                    appointment.PatientName,
+                    appointment.Dob,
+                    appointment.ContactNumber,
+                    appointment.PatientId,
+                    MedicalHistories = medicalHistories
+                });
+            }
+
+            return Ok(new { message = result, success = true });
+        }
 
 
     }

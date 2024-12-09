@@ -3,88 +3,112 @@
   "WorkspaceRootPath": "F:\\IPT Project\\care_sync_backend\\CareSync\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\MedicalHistoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\MedicalHistoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Jobs\\AppointmentNotificationJob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Jobs\\AppointmentNotificationJob.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\NotificationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\NotificationController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\AppointmentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AppointmentController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Repositories\\IMedicalHistoryRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\IMedicalHistoryRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\MedicalHistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\MedicalHistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\MedicalHistoryDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\MedicalHistoryDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\AppointmentWithMedicalHistoryDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\AppointmentWithMedicalHistoryDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Repositories\\IDoctorRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\IDoctorRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\DoctorDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\DoctorDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\DoctorDetailsDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\DoctorDetailsDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\AuthService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\DoctorController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\DoctorController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\Doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\Appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Appointments.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\AppointmentDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\AppointmentDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Services\\NotificationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\NotificationService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\AuthController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\Patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\ImageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\ImageController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\LoginDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\UpdateDoctorProfileDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\UpdateDoctorProfileDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Repositories\\IAppointmentRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\IAppointmentRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\UploadImageModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\UploadImageModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\PatientController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\PatientController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\MedicalHistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\MedicalHistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\User.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\Doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Models\\Doctors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Properties\\launchSettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Data\\AppDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\MedicalHistoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\MedicalHistoryController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Services\\JWTService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Services\\JWTService.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Repositories\\IAppointmentRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\IAppointmentRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\DoctorDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\DoctorDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\FreeDayDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\FreeDayDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\UpdatePatientProfileDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\UpdatePatientProfileDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\RegisterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\RegisterDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\DoctorDetailsDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:DTOs\\DoctorDetailsDto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Repositories\\IPatientRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\IPatientRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Repositories\\IMedicalHistoryRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Repositories\\IMedicalHistoryRepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\PatientController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\PatientController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,205 +118,210 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AppointmentWithMedicalHistoryDto.cs",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\AppointmentWithMedicalHistoryDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\AppointmentWithMedicalHistoryDto.cs",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\AppointmentWithMedicalHistoryDto.cs",
-              "RelativeToolTip": "DTOs\\AppointmentWithMedicalHistoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T22:10:55.719Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "MedicalHistoryDto.cs",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\MedicalHistoryDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\MedicalHistoryDto.cs",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\MedicalHistoryDto.cs",
-              "RelativeToolTip": "DTOs\\MedicalHistoryDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T21:26:25.571Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MedicalHistoryController.cs",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\MedicalHistoryController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MedicalHistoryController.cs",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\MedicalHistoryController.cs",
-              "RelativeToolTip": "Controllers\\MedicalHistoryController.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAMwC0AAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T19:11:38.579Z",
+              "WhenOpened": "2024-12-08T18:48:13.437Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AppointmentController.cs",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\AppointmentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AppointmentController.cs",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\AppointmentController.cs",
-              "RelativeToolTip": "Controllers\\AppointmentController.cs",
-              "ViewState": "AgIAALIAAAAAAAAAAAAowMUAAAAnAAAAAAAAAA==",
+              "Title": "NotificationController.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\NotificationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\NotificationController.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\NotificationController.cs",
+              "RelativeToolTip": "Controllers\\NotificationController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T18:57:57.652Z",
+              "WhenOpened": "2024-12-08T17:18:32.442Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "IDoctorRepository.cs",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Repositories\\IDoctorRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IDoctorRepository.cs",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Repositories\\IDoctorRepository.cs",
-              "RelativeToolTip": "Repositories\\IDoctorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T23:34:38.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "MedicalHistory.cs",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\MedicalHistory.cs",
-              "RelativeDocumentMoniker": "Models\\MedicalHistory.cs",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\MedicalHistory.cs",
-              "RelativeToolTip": "Models\\MedicalHistory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:47:40.092Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "DoctorDto.cs",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\DoctorDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\DoctorDto.cs",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\DoctorDto.cs",
-              "RelativeToolTip": "DTOs\\DoctorDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:35:05.678Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IMedicalHistoryRepository.cs",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Repositories\\IMedicalHistoryRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\IMedicalHistoryRepository.cs",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Repositories\\IMedicalHistoryRepository.cs",
-              "RelativeToolTip": "Repositories\\IMedicalHistoryRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T15:11:32.803Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "DoctorDetailsDto.cs",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\DoctorDetailsDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\DoctorDetailsDto.cs",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\DoctorDetailsDto.cs",
-              "RelativeToolTip": "DTOs\\DoctorDetailsDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T23:37:37.527Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
               "Title": "Appointments.cs",
               "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\Appointments.cs",
               "RelativeDocumentMoniker": "Models\\Appointments.cs",
               "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\Appointments.cs",
               "RelativeToolTip": "Models\\Appointments.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:47:42.121Z"
+              "WhenOpened": "2024-12-08T17:07:57.199Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AppointmentNotificationJob.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Jobs\\AppointmentNotificationJob.cs",
+              "RelativeDocumentMoniker": "Jobs\\AppointmentNotificationJob.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Jobs\\AppointmentNotificationJob.cs",
+              "RelativeToolTip": "Jobs\\AppointmentNotificationJob.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAcwB4AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T01:35:56.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:16:54.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "User.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:16:07.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateDoctorProfileDto.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\UpdateDoctorProfileDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdateDoctorProfileDto.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\UpdateDoctorProfileDto.cs",
+              "RelativeToolTip": "DTOs\\UpdateDoctorProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:24:57.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T10:08:50.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppointmentController.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\AppointmentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AppointmentController.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\AppointmentController.cs",
+              "RelativeToolTip": "Controllers\\AppointmentController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACkAAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T01:45:40.446Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "ImageController.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\ImageController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ImageController.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\ImageController.cs",
+              "RelativeToolTip": "Controllers\\ImageController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAcwFAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T21:18:26.82Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "DoctorController.cs",
               "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\DoctorController.cs",
               "RelativeDocumentMoniker": "Controllers\\DoctorController.cs",
               "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\DoctorController.cs",
               "RelativeToolTip": "Controllers\\DoctorController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T23:30:59.517Z"
+              "WhenOpened": "2024-12-04T01:25:33.114Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "AppointmentDto.cs",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\AppointmentDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\AppointmentDto.cs",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\AppointmentDto.cs",
-              "RelativeToolTip": "DTOs\\AppointmentDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:47:46.437Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAEIAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T19:49:52.25Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Doctors.cs",
               "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\Doctors.cs",
               "RelativeDocumentMoniker": "Models\\Doctors.cs",
               "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\Doctors.cs",
               "RelativeToolTip": "Models\\Doctors.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:43:46.696Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\LoginDto.cs",
-              "RelativeDocumentMoniker": "DTOs\\LoginDto.cs",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\LoginDto.cs",
-              "RelativeToolTip": "DTOs\\LoginDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T14:47:50.469Z"
+              "WhenOpened": "2024-12-05T21:39:53.915Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Patient.cs",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\Patient.cs",
-              "RelativeDocumentMoniker": "Models\\Patient.cs",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\Patient.cs",
-              "RelativeToolTip": "Models\\Patient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "DocumentIndex": 11,
+              "Title": "UploadImageModel.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\UploadImageModel.cs",
+              "RelativeDocumentMoniker": "Models\\UploadImageModel.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\UploadImageModel.cs",
+              "RelativeToolTip": "Models\\UploadImageModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T02:07:49.765Z"
+              "WhenOpened": "2024-12-05T22:04:06.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 7,
+              "Title": "NotificationService.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Services\\NotificationService.cs",
+              "RelativeDocumentMoniker": "Services\\NotificationService.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Services\\NotificationService.cs",
+              "RelativeToolTip": "Services\\NotificationService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T01:27:21.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MedicalHistory.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\MedicalHistory.cs",
+              "RelativeDocumentMoniker": "Models\\MedicalHistory.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\MedicalHistory.cs",
+              "RelativeToolTip": "Models\\MedicalHistory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-05T22:04:11.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T01:24:45.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "IAppointmentRepository.cs",
               "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Repositories\\IAppointmentRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\IAppointmentRepository.cs",
@@ -300,55 +329,127 @@
               "RelativeToolTip": "Repositories\\IAppointmentRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T12:47:57.315Z"
+              "WhenOpened": "2024-12-04T01:50:14.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "DoctorDto.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\DoctorDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DoctorDto.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\DoctorDto.cs",
+              "RelativeToolTip": "DTOs\\DoctorDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:23:52.319Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "FreeDayDto.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\FreeDayDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\FreeDayDto.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\FreeDayDto.cs",
+              "RelativeToolTip": "DTOs\\FreeDayDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:29:06.993Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
+              "Title": "JWTService.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Services\\JWTService.cs",
+              "RelativeDocumentMoniker": "Services\\JWTService.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Services\\JWTService.cs",
+              "RelativeToolTip": "Services\\JWTService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T22:42:23.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MedicalHistoryController.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\MedicalHistoryController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MedicalHistoryController.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\MedicalHistoryController.cs",
+              "RelativeToolTip": "Controllers\\MedicalHistoryController.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T01:41:41.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RegisterDto.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\RegisterDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\RegisterDto.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\RegisterDto.cs",
+              "RelativeToolTip": "DTOs\\RegisterDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:27:08.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DoctorDetailsDto.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\DoctorDetailsDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\DoctorDetailsDto.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\DoctorDetailsDto.cs",
+              "RelativeToolTip": "DTOs\\DoctorDetailsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T18:26:41.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UpdatePatientProfileDto.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\UpdatePatientProfileDto.cs",
+              "RelativeDocumentMoniker": "DTOs\\UpdatePatientProfileDto.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\DTOs\\UpdatePatientProfileDto.cs",
+              "RelativeToolTip": "DTOs\\UpdatePatientProfileDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T01:23:02.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "IMedicalHistoryRepository.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Repositories\\IMedicalHistoryRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IMedicalHistoryRepository.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Repositories\\IMedicalHistoryRepository.cs",
+              "RelativeToolTip": "Repositories\\IMedicalHistoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T01:50:15.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "IPatientRepository.cs",
+              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Repositories\\IPatientRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IPatientRepository.cs",
+              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Repositories\\IPatientRepository.cs",
+              "RelativeToolTip": "Repositories\\IPatientRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-04T01:50:20.824Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "PatientController.cs",
               "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\PatientController.cs",
               "RelativeDocumentMoniker": "Controllers\\PatientController.cs",
               "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Controllers\\PatientController.cs",
               "RelativeToolTip": "Controllers\\PatientController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-01T02:05:19.125Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "User.cs",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-30T23:34:30.224Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-30T20:37:59.882Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "F:\\IPT Project\\care_sync_backend\\CareSync\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "F:\\IPT Project\\care_sync_backend\\CareSync\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEIAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-28T10:08:50.396Z"
+              "WhenOpened": "2024-12-04T01:45:34.188Z"
             }
           ]
         }

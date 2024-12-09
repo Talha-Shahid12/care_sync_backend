@@ -12,6 +12,6 @@ namespace CareSync.Data
         public DbSet<Patient> Patients { get; set; } = null!;
         public DbSet<MedicalHistory> MedicalHistories { get; set;} = null!;
         public DbSet<Appointment> Appointments { get; set; } = null!;
-
+        public DbSet<Image> Images { get; set; } = null!;
     }
 }

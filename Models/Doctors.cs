@@ -12,9 +12,9 @@ namespace CareSync.Models
         public string? Specialization { get; set; }
         public string? HospitalName { get; set; }
         public decimal? ConsultationFee { get; set; }
-        public string? FreeHours { get; set; } // Store serialized JSON string
+        public string? FreeHours { get; set; }
         [NotMapped]
-        public List<FreeDayDto> FreeHoursList { get; set; } = new List<FreeDayDto>();  // Initialize to an empty list
+        public List<FreeDayDto> FreeHoursList { get; set; } = new List<FreeDayDto>();
         [ForeignKey("User")]
         public string UserId { get; set; }
     }

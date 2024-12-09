@@ -5,11 +5,49 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using CareSync.Jobs;
+using FirebaseAdmin;
+using Google.Apis.Auth.OAuth2;
+using Quartz;
+
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSingleton<JWTService>();
 
+
+
+//Firebase initialization
+
+FirebaseApp.Create(new AppOptions
+{
+    Credential = GoogleCredential.FromFile("caresync-5f06b-firebase-adminsdk-ef9yi-b427ca4b81.json")
+});
+
+builder.Services.AddQuartz(q =>
+{
+    q.UseMicrosoftDependencyInjectionJobFactory();
+    var jobKey = new JobKey("AppointmentNotificationJob");
+
+    q.AddJob<AppointmentNotificationJob>(opts => opts.WithIdentity(jobKey));
+
+    q.AddTrigger(opts => opts
+        .ForJob(jobKey)
+        .WithIdentity("DailyAt11_59AMTrigger")
+        .WithCronSchedule("0 59 11 * * ?")  // Cron expression for every day 11:59 AM
+    );
+});
+
+
+
+
+builder.Services.AddQuartzHostedService(q => q.WaitForJobsToComplete = true);
+
+
+
+
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
 builder.Services.AddScoped<IAuthService, AuthService>();
@@ -65,7 +103,7 @@ builder.Services.AddCors(options =>
 });
 
 var app = builder.Build();
-
+app.MapGet("/", () => "Welcome to the CareSync Server!");
 app.UseCors("AllowAllOrigins");
 app.UseAuthentication();
 app.UseAuthorization();
