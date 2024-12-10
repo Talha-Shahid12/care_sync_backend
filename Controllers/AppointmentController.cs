@@ -130,10 +130,7 @@ namespace CareSync.Controllers
                 });
             }
 
-            if (!result.Any())
-            {
-                return NotFound(new { message = "No appointments found for the provided patient ID.", success = false });
-            }
+         
 
             return Ok(new { message = result, success = true });
         }
@@ -181,10 +178,7 @@ namespace CareSync.Controllers
                 })
                 .ToListAsync();
 
-            if (!appointments.Any())
-            {
-                return NotFound(new { message = "No scheduled appointments found.", success = false });
-            }
+       
 
             var result = new List<object>();
 
@@ -257,10 +251,6 @@ namespace CareSync.Controllers
                 })
                 .ToListAsync();
 
-            if (!appointments.Any())
-            {
-                return NotFound(new { message = "No scheduled appointments found.", success = false });
-            }
 
             var result = new List<object>();
 
